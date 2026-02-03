@@ -13,6 +13,10 @@ An AI-based resume-job matching system that uses semantic vector embeddings to m
    ```bash
    pip install -r requirements.txt
    ```
+try this if the above one doesnt work
+   ```bash
+   pip install sentence-transformers scikit-learn streamlit pdfplumber python-docx
+   ```
 2. Run the application:
    ```bash
    streamlit run ui/streamlit_app.py
@@ -26,3 +30,4 @@ An AI-based resume-job matching system that uses semantic vector embeddings to m
 - `skills.py`: Extracts and compares skills.
 - `app.py`: Main pipeline logic.
 - `ui/streamlit_app.py`: User interface.
+
